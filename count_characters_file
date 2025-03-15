@@ -1,0 +1,5 @@
+a= "/content/programm1.tex" 
+with open(a, 'r', encoding='utf-8') as file:
+    content = file.read()
+    char_count = len(content)
+print("Number of characters:", char_count)
